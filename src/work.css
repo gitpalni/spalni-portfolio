@@ -1,0 +1,39 @@
+.project{
+    text-decoration: none !important;
+    color: black;
+    text-align: center;
+}
+
+.project-name
+{
+    text-decoration: none !important;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading1
+{
+    font-size: 2rem;
+    margin-left: 0%;
+    margin-top: -0.25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.body
+{
+    background-color: white;
+}
+@media (max-width:500px) {
+    .project-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .project{
+        font-size: larger;
+    }
+    .project-name{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Tilt+Neon&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+.Formalign{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    /* padding-bottom: -px; */ 
+}
+
+.artwork{
+    height: 300px;
+    width: 200px;
+    margin-top: 200px;
+    transform: rotate(10deg);
+    margin-right: 60px;
+    margin-top: 242px;
+    margin-bottom: -30px;
+}
+.Form{
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+    margin-right: -20px;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    background-color: whitesmoke;
+    padding-left: 50px;
+    /* width: 98.5vw; */
+}
+
+#top{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.second{
+    font-weight: lighter;
+    font-size: 1rem;
+    /* font-family: 'Tilt Neon', sans-serif; */
+    /* margin-left: 40px; */
+    margin-top: 0px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    width:52vw;
+    /* gap:50px; */
+    /* margin-left: 40px; */
+}
+
+.third{
+    display: flex;
+    /* flex-direction: c; */
+    justify-content: space-between;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+
+.name input{
+    font-family: 'Tilt Neon', sans-serif;
+    padding: 10px 10px;
+    border-style: none;
+    width: 280px;
+}
+.email{
+    /* margin-left: 50px; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+
+.email input{
+    font-family: 'Tilt Neon', sans-serif;
+    padding: 10px 10px;
+    border-style: none;
+    width: 300px;
+}
+
+.message{
+    /* font-family: 'Tilt Neon', sans-serif; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+/* Target the textarea element inside .message */
+.message textarea {
+    font-family: 'Tilt Neon', sans-serif;
+    text-align: left;
+    vertical-align: top;
+    border-style: none;
+    padding: 10px 10px;
+}
+
+.btn{
+    font-family: 'Tilt Neon', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: fit-content;
+    border-style: none;
+    text-transform: uppercase;
+    /* margin-left:0px; */
+    /* margin-right: 20px; */
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+@media (max-width:500px){
+    .Form{
+        display: flex;
+        flex-direction: column;
+        /* margin-left: -20px; */
+        /* margin-right: -20px; */
+        font-family: 'Open Sans', sans-serif;
+        /* font-family: 'Montserrat', sans-serif; */
+        background-color: whitesmoke;
+        padding-left: 20px;
+        width: 100%;
+    }
+    .name{
+        width: 80%;
+    }.email{
+        width: 80%;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+    .third{
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 1;
+        width: 80vw;
+        justify-content: space-between;
+    }
+    .name input{
+        width: 100%;
+    }
+    .email input{
+        width: 100%;
+    }
+    .email{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .message{
+        display: flex;
+        width: 100vw;
+    }
+    .message textarea{
+        width: 70%;
+    }
+    .artwork{
+        height: 5rem;
+        width: 5rem;
+        margin-left: 110px;
+        margin-top: auto;
+        margin-bottom: 10px;
+    }
+}
