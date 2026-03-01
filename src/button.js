@@ -70,7 +70,7 @@ const Button = ({onScroll}) => {
           onClick={() => handleClick('work')}
         />
         </Link>
-        <a href="https://drive.google.com/file/d/1OsPeNtAEUVLA06cWRE4GYLraCd3d0G67/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1YgMrVVNGa0o_hRUOS0cl5SmV0nwXAFnD/view" target="_blank" rel="noopener noreferrer">
           <img
             className={`cv_normal ${hovered === 'cv' ? 'hover' : ''} ${clicked === 'cv' ? 'click' : ''}`}
             src={clicked === 'cv' ? ClickCv : (hovered === 'cv' ? HoverCv : Cv)}
