@@ -9,7 +9,7 @@ const About = () => {
       <Navbar/> 
       <img className='img_x' src={img1} alt="" />
       <span className = "anchor">
-        <a href = "./Shambhavi Palni-CV-v2602.pdf" target = "_blank">Resume</a><span className='t'> | </span>
+        <a href = "https://drive.google.com/file/d/1YgMrVVNGa0o_hRUOS0cl5SmV0nwXAFnD/view" target = "_blank">Resume</a><span className='t'> | </span>
         <a href = "mailto:shambhavipalnicontact@gmail.com" target='_blank'>shambhavipalnicontact@gmail.com</a>
       </span>
     </div>
